@@ -1,0 +1,9 @@
+('C:\\Projects\\RansomFilesValidator\\build\\FilesMapper\\FilesMapper.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1468959839L)
