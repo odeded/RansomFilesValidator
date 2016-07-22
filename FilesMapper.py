@@ -65,10 +65,12 @@ def main(argv):
         opts, args = getopt.getopt(argv,"hr:d:")
     except getopt.GetoptError:
         print 'run.me [-h] [-r <root_directory>] [-d <dictionary_file>]'
+        print 'Version 1.0.0'
         quit()
     for opt, arg in opts:
         if opt == '-h':
             print 'run.me [-h] [-r <root_directory>] [-d <dictionary_file>]'
+            print 'Version 1.0.0'
             sys.exit()
         elif opt in ("-r"):
             ROOT_FOLDER = arg

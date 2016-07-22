@@ -544,9 +544,9 @@ posix: None -> None
   DEL posix
 posix: None -> None
   DEL posix
-__main__: <PyScript '__main__' C:\Users\shayo\AppData\Roaming\Python\Python27\site-packages\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' FilesMapper.py imports=[('os', 0, 0, -1), ('timeit', 0, 0, -1), ('cPickle', 0, 0, -1), ('md5', 0, 0, -1)] binaries=[] datas=[]>
-timeit: None -> <PyModule 'timeit' C:\Python27\lib\timeit.pyc imports=[('gc', 0, 0, -1), ('itertools', 0, 0, -1), ('traceback', 1, 0, -1), ('os', 1, 0, -1), ('linecache', 1, 0, -1), ('getopt', 1, 0, -1), ('time', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+__main__: <PyScript '__main__' C:\Users\shayo\AppData\Roaming\Python\Python27\site-packages\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' FilesMapper.py imports=[('md5', 0, 0, -1), ('sys', 0, 0, -1), ('shutil', 0, 0, -1), ('os', 0, 0, -1), ('getopt', 0, 0, -1), ('cPickle', 0, 0, -1)] binaries=[] datas=[]>
 md5: None -> <PyModule 'md5' C:\Python27\lib\md5.pyc imports=[('hashlib.md5', 0, 0, -1), ('hashlib', 0, 0, -1), ('warnings', 0, 0, -1)] binaries=[] datas=[]>
+shutil: None -> <PyModule 'shutil' C:\Python27\lib\shutil.pyc imports=[('collections', 0, 0, -1), ('distutils.spawn', 1, 0, -1), ('pwd', 0, 0, -1), ('sys', 0, 0, -1), ('os.path', 0, 0, -1), ('os', 0, 0, -1), ('distutils.errors', 1, 0, -1), ('tarfile', 1, 0, -1), ('fnmatch', 0, 0, -1), ('grp', 0, 0, -1), ('os.path.abspath', 0, 0, -1), ('stat', 0, 0, -1), ('grp.getgrnam', 0, 0, -1), ('pwd.getpwnam', 0, 0, -1), ('errno', 0, 0, -1), ('zipfile', 1, 0, -1), ('distutils.spawn.spawn', 1, 0, -1), ('distutils.errors.DistutilsExecError', 1, 0, -1)] binaries=[] datas=[]>
 posix: None -> None
   DEL posix
 posix: None -> None
@@ -559,19 +559,55 @@ _emx_link: None -> None
   DEL _emx_link
 fcntl: None -> None
   DEL fcntl
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
 readline: None -> None
   DEL readline
 pwd: None -> None
   DEL pwd
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
 readline: None -> None
   DEL readline
 fcntl: None -> None
   DEL fcntl
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
+distutils: None -> <PkgModule 'distutils' C:\Python27\lib\distutils\__init__.pyc imports=[] binaries=[] datas=[('include\\pyconfig.h', 'C:\\Python27\\include\\pyconfig.h', 'DATA')]>
+distutils.spawn: None -> <PyModule 'distutils.spawn' C:\Python27\lib\distutils\spawn.pyc imports=[('distutils', 0, 1, -1), ('distutils.log', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('distutils.debug.DEBUG', 0, 0, -1), ('distutils.debug', 0, 0, -1), ('distutils.errors.DistutilsExecError', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.sysconfig', 0, 1, -1), ('distutils.errors', 0, 0, -1), ('errno', 1, 1, -1), ('distutils', 0, 0, -1)] binaries=[] datas=[]>
+pwd: None -> None
+  DEL pwd
+distutils.errors: None -> <PyModule 'distutils.errors' C:\Python27\lib\distutils\errors.pyc imports=[] binaries=[] datas=[]>
+tarfile: None -> <PyModule 'tarfile' C:\Python27\lib\tarfile.pyc imports=[('pwd', 0, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('os', 0, 0, -1), ('StringIO', 1, 1, -1), ('struct', 0, 0, -1), ('grp', 0, 0, -1), ('calendar', 1, 0, -1), ('gzip', 1, 0, -1), ('sys', 0, 0, -1), ('shutil', 0, 0, -1), ('warnings', 1, 0, -1), ('bz2', 1, 0, -1), ('time', 0, 0, -1), ('warnings.warnpy3k', 1, 0, -1), ('zlib', 1, 1, -1), ('errno', 0, 0, -1), ('__builtin__.open', 0, 0, -1), ('cStringIO', 1, 0, -1), ('re', 0, 0, -1), ('copy', 0, 0, -1), ('StringIO.StringIO', 1, 1, -1), ('warnings', 1, 1, -1), ('operator', 0, 0, -1), ('bz2', 1, 1, -1), ('stat', 0, 0, -1), ('__builtin__', 0, 0, -1)] binaries=[] datas=[]>
+grp: None -> None
+  DEL grp
+grp: None -> None
+  DEL grp
+pwd: None -> None
+  DEL pwd
+zipfile: None -> <PyModule 'zipfile' C:\Python27\lib\zipfile.pyc imports=[('re', 0, 0, -1), ('textwrap', 1, 0, -1), ('sys', 0, 0, -1), ('shutil', 0, 0, -1), ('os', 0, 0, -1), ('warnings', 1, 1, -1), ('struct', 0, 0, -1), ('cStringIO', 0, 0, -1), ('stat', 0, 0, -1), ('string', 0, 0, -1), ('zlib', 0, 0, -1), ('binascii', 0, 0, -1), ('py_compile', 1, 1, -1), ('time', 0, 0, -1), ('io', 0, 0, -1)] binaries=[] datas=[]>
+distutils.distutils: None -> None
+distutils.log: None -> <PyModule 'distutils.log' C:\Python27\lib\distutils\log.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
+distutils.sys: None -> None
+distutils.os: None -> None
+distutils.debug: None -> <PyModule 'distutils.debug' C:\Python27\lib\distutils\debug.pyc imports=[('os', 0, 0, -1)] binaries=[] datas=[]>
+distutils.sysconfig: None -> <PyModule 'distutils.sysconfig' C:\Python27\lib\distutils\sysconfig.pyc imports=[('_osx_support', 1, 1, -1), ('distutils.text_file', 1, 0, -1), ('re', 0, 0, -1), ('_sysconfigdata.build_time_vars', 1, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('string', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('_sysconfigdata', 1, 0, -1), ('distutils.text_file.TextFile', 1, 0, -1)] binaries=[] datas=[]>
+distutils.errno: None -> None
+distutils._osx_support: None -> None
+_osx_support: None -> <PyModule '_osx_support' C:\Python27\lib\_osx_support.pyc imports=[('re', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('distutils', 1, 1, -1), ('tempfile', 1, 0, -1), ('contextlib', 1, 0, -1), ('distutils.log', 1, 1, -1)] binaries=[] datas=[]>
+distutils.text_file: None -> <PyModule 'distutils.text_file' C:\Python27\lib\distutils\text_file.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
+distutils.re: None -> None
+distutils._sysconfigdata: None -> None
+_sysconfigdata: None -> None
+  DEL _sysconfigdata
+distutils.string: None -> None
+_sysconfigdata: None -> None
+  DEL _sysconfigdata
+pwd: None -> None
+  DEL pwd
+grp: None -> None
+  DEL grp
+gzip: None -> <PyModule 'gzip' C:\Python27\lib\gzip.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('__builtin__', 0, 0, -1), ('zlib', 0, 0, -1), ('warnings', 1, 0, -1), ('errno', 1, 1, -1), ('time', 0, 0, -1), ('io', 0, 0, -1)] binaries=[] datas=[]>
+py_compile: None -> <PyModule 'py_compile' C:\Python27\lib\py_compile.pyc imports=[('imp', 0, 0, -1), ('sys', 0, 0, -1), ('marshal', 0, 0, -1), ('os', 0, 0, -1), ('__builtin__', 0, 0, -1), ('traceback', 0, 0, -1)] binaries=[] datas=[]>
