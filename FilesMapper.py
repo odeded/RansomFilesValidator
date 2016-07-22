@@ -43,7 +43,10 @@ def ScanFolder(root, dict):
     counter = 0
     os.chdir(root)
     for root, dirs, files in os.walk('.'):
+        print root
         for file in files:
+            if not file.lower().endswith(('.jpg', '.jpeg', '.avi', '.mp4')):
+                continue
             counter += 1
             full_filename = os.path.join(root, file)
             hash = GetHashForFile(full_filename)
@@ -57,6 +60,9 @@ def ScanFolder(root, dict):
         return False, "Removed {__counter} files".format(__counter=len(dict)-counter)
     return True, "Added new {} files".format(new_files)
 
+def print_help():
+    print 'run.me [-h] [-r <root_directory>] [-d <dictionary_file>]'
+    print 'Version 1.0.1'
 
 def main(argv):
     ROOT_FOLDER = r"c:\temp"
@@ -64,13 +70,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hr:d:")
     except getopt.GetoptError:
-        print 'run.me [-h] [-r <root_directory>] [-d <dictionary_file>]'
-        print 'Version 1.0.0'
-        quit()
+        print_help()
+        sys.exit()
     for opt, arg in opts:
         if opt == '-h':
-            print 'run.me [-h] [-r <root_directory>] [-d <dictionary_file>]'
-            print 'Version 1.0.0'
+            print_help()
             sys.exit()
         elif opt in ("-r"):
             ROOT_FOLDER = arg
@@ -79,7 +83,7 @@ def main(argv):
 
     if not os.path.isdir(ROOT_FOLDER):
         print "No such root folder "+ROOT_FOLDER
-        quit()
+        sys.exit()
 
     dictionary = LoadDictionaryFromFile(DICT_FILE_NAME)
 
