@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82fd6195-1517-49f9-8ead-7370c3adc14f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/FilesMapper/include/pyconfig.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/FilesMapper.exe" afterPath="$PROJECT_DIR$/build/FilesMapper/FilesMapper.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-PKG.pkg" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-PKG.pkg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-PYZ.pyz" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-PYZ.pyz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/FilesMapper/FilesMapper.exe" afterPath="$PROJECT_DIR$/dist/FilesMapper/FilesMapper.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FilesMapper.py" afterPath="$PROJECT_DIR$/FilesMapper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/logdict2.7.10.final.0-1.log" afterPath="$PROJECT_DIR$/build/FilesMapper/logdict2.7.10.final.0-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-Analysis.toc" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-Analysis.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-COLLECT.toc" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-COLLECT.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-EXE.toc" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-EXE.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/out00-PYZ.toc" afterPath="$PROJECT_DIR$/build/FilesMapper/out00-PYZ.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FilesMapper/warnFilesMapper.txt" afterPath="$PROJECT_DIR$/build/FilesMapper/warnFilesMapper.txt" />
-    </list>
+    <list default="true" id="82fd6195-1517-49f9-8ead-7370c3adc14f" name="Default" comment="" />
     <ignored path="FilesValidator.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +24,8 @@
       <file leaf-file-name="FilesMapper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FilesMapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7526042">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.3279743">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -351,7 +337,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469192602557</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.0.1: print folder name + run only on jpeg, avi &amp; mp4">
+      <created>1469200251758</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1469200251758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,7 +370,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25765765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38918918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,7 +394,8 @@
     <MESSAGE value="Full working 1st version" />
     <MESSAGE value="Added exe for script" />
     <MESSAGE value="command line arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="command line arguments" />
+    <MESSAGE value="1.0.1: print folder name + run only on jpeg, avi &amp; mp4" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1: print folder name + run only on jpeg, avi &amp; mp4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FilesMapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7526042">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.3279743">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
